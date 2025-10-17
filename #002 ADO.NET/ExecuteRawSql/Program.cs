@@ -97,15 +97,15 @@ namespace ConnectionString
 
             var query = "Select * from Wallets";
 
-            SqlCommand command = new SqlCommand(query, connection);
-
-            command.CommandType = CommandType.Text;
+           
 
             connection.Open();
             
             SqlDataAdapter adapter = new SqlDataAdapter(query,connection);
 
             DataTable dt = new DataTable();
+
+
 
             adapter.Fill(dt);
 
