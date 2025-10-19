@@ -18,7 +18,7 @@ namespace EF005.EFCore
             //UpdateWallet();
             //DeleteWallet();
             //QueryData();
-            TransactionDemo();
+            //TransactionDemo();
             Console.ReadKey();
 
         }
